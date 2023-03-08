@@ -7,7 +7,7 @@ from wtforms import StringField, SubmitField, FloatField, IntegerField
 from wtforms.validators import DataRequired, InputRequired, NumberRange
 import requests
 
-API_KEY = "0b3fe7b18b24a5c53090cb63b7f6f130"
+API_KEY = "Your Api Key"
 
 moviedb_endpoint = "https://api.themoviedb.org/3/search/movie"
 MOVIE_DB_INFO_URL = "https://api.themoviedb.org/3/movie"
@@ -15,7 +15,7 @@ MOVIE_DB_IMAGE_URL = "https://image.tmdb.org/t/p/w300_and_h450_bestv2"
 
 # create the app
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = 'Your secret Key'
 Bootstrap(app)
 
 # create the extension
